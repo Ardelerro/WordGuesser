@@ -1,4 +1,5 @@
 import React, { Component, useState } from 'react';
+import About from './About';
 import Board from './Board';
 import Header from './Header';
 import Keyboard from './Keyboard';
@@ -11,7 +12,7 @@ function Game() {
   return <div>
       <Header></Header>
       <br/>
-      
+      <About></About>
       <Keyboard></Keyboard>
 
       </div>;

@@ -5,7 +5,7 @@ import ModalBody from 'react-bootstrap/ModalBody'
 import ModalFooter from 'react-bootstrap/ModalFooter'
 import ModalHeader from 'react-bootstrap/ModalHeader'
 import ModalTitle from 'react-bootstrap/ModalTitle'
-
+import {Link} from "react-router-dom"
 
 
 
@@ -17,13 +17,9 @@ function Header() {
     return <div class="d-flex justify-content-center">
         <div class="row">
             <div class="col-sm">
-                <Button class="btn btn-primary" >About</Button>
             </div>
-            <div class="col-sm">
-                WordGuesser
-            </div>
-            <div class="col-sm">
-                <Button onClick={showSettings}>Settings</Button>
+            <div class="col-sm text-light">
+                <h1>WordGuesser</h1>
             </div>
         </div>
 
